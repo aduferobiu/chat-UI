@@ -1,0 +1,26 @@
+.mobile-phone {
+    float: none;
+    margin-bottom: 2rem;
+}
+
+body {
+    overflow: hidden;
+}
+
+#header {
+    width: 100%;
+    float: none;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: -0.2rem;
+    margin-bottom: 2rem;
+}
+
+.bg-design-right {
+    display: none;
+}
+
+.bg-design-left {
+    position: absolute;
+    width: 50%;
+}
