@@ -23,8 +23,8 @@ body {
 
 .bg-design-left {
     background: var(--gradient-1);
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width: 31.25rem;
     left: -40px;
     position: fixed;
     border-radius: 0 0 300px 300px;
@@ -43,22 +43,15 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 75rem;
     padding: 0 1rem;
     margin: 0 auto;
 }
 
-.container-flex {
-    /* display: flex; */
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .mobile-phone {
     margin: 2rem 5rem 1rem;
-    width: 300px;
-    height: 680px;
+    width: 18.75rem;
+    height: 42.5rem;
     display: inline-block;
     background-color: #fff;
     border-radius: 50px;
@@ -70,8 +63,8 @@ body {
 .mobile-phone::after {
     content: "";
     position: absolute;
-    width: 170px;
-    height: 30px;
+    width: 10.265rem;
+    height: 1.875rem;
     background-color: #fff;
     border-radius: 100px;
     top: 4%;
@@ -81,8 +74,8 @@ body {
 
 .mobile-phone-screen {
     position: absolute;
-    width: 267px;
-    height: 647px;
+    width: 16.6875rem;
+    height: 40.4375rem;
     background-color: hsl(270, 20%, 96%);
     top: 50%;
     left: 50%;
@@ -93,7 +86,7 @@ body {
 .mobile-phone-header {
     background: var(--gradient);
     width: 100%;
-    height: 110px;
+    height: 6.875rem;
     border-radius: 40px 40px 20px 20px;
     position: absolute;
     color: #fff;
@@ -104,7 +97,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 130px;
+    height: 8.125rem;
 }
 
 .user-pics {
@@ -241,12 +234,12 @@ body {
     background-color: hsl(271, 36%, 24%);
     color: #fff;
     border: none;
-    width: 30px;
-    height: 30px;
+    width: 1.875rem;
+    height: 1.875rem;
     border-radius: 50%;
     position: absolute;
-    top: 25px;
-    right: 3px;
+    top: 1.5625rem;
+    right: 0.1875rem;
 }
 
 .message-btn i {
@@ -277,7 +270,7 @@ body {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: .7rem;
     text-align: center;
 }
 

@@ -4,16 +4,16 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #header {
-    width: 100%;
+    max-width: 100%;
     float: none;
     font-size: 1.3rem;
     text-align: center;
-    margin-top: -0.2rem;
-    margin-bottom: 2rem;
+    margin: -0.2rem 1rem 2rem;
+    display: inline-block;
 }
 
 .bg-design-right {
@@ -23,4 +23,39 @@ body {
 .bg-design-left {
     position: absolute;
     width: 50%;
+    top: 0;
 }
+
+@media screen and (max-width:400px) {
+    .mobile-phone {
+        float: none;
+        margin: 0;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        display: block;
+    }
+    html {
+        font-size: 12px;
+    }
+    #header {
+        font-size: 1rem;
+    }
+    .container {
+        max-width: 380px !important;
+    }
+    .message-input input {
+        width: 95%;
+        border: none;
+        padding: .7rem .5rem;
+        margin-top: 1rem;
+        border-radius: 100px;
+    }
+}
+
+
+/* @media screen and (max-width:380px) {
+    .container {
+        max-width: 350px;
+    }
+} */
